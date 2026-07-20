@@ -1,38 +1,119 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
+
+img{
+    max-width: 100%;
+}
+
 nav{
     display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: auto;
-    padding: 15px 0px;
+    justify-content: space-between;
+    padding: 12px 0px;
 }
 ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 12px;
+    gap: 25px;
     align-items: center;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
 }
 .logo{
     font-weight: bold;
     font-size: 32px;
 }
-.logo-r{
+.cr{
     color: #fd6e0a;
 }
-ul li a{
-    text-decoration: none;
-}
-.common-btn{
+.cmn-btn{
     background-color: #fd6e0a;
-    padding: 7px 7px;
-    border-radius: 4px;
+    padding: 7px 6px;
+    border-radius: 3.9px;
     font-weight: bold;
     font-size: 22px;
-    color: white;
     border: none;
+    color: white;
+    cursor: pointer;
 }
+.outline-btn{
+    background-color: white;
+    padding: 7px 6px;
+    border-radius: 3.9px;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    cursor: pointer;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* hero section style */
+
+.hero-back-root{
+    background-color: #f8decc;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 37px;
+}
+.hero-left p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.hero-left h5{
+    font-size: 27px;
+    font-weight: 500;
+}
+.hero-left-btn{
+    margin-top: 10px;
+}
+
+/* hero section end   */
+
+/* About section start */
+.about-parent{
+    margin: 70px auto;
+    background-color: #f8decc;
+    border-radius: 7px;
+    padding: 70px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px 0px;
+}
+.parent-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+/* About Section End */
+
+/* what i do section start */
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.card-parent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* what i do section ent */
